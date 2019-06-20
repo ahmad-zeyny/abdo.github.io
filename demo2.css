@@ -1,0 +1,33 @@
+body{
+	background: url(background.jpg) center center fixed;
+	background-size: cover;
+}
+
+
+.btn , .btn-primary{
+	background: blue;
+	color:white;
+	border-radius: 50px;
+	position: absolute;
+	left:45%;
+	right:45%;
+	width:150px;
+	bottom: 100px;
+	transition: all 1s;
+}
+.btn:hover , .btn-primary:hover{
+transform: scale(1.1);
+}
+h1{
+	top:20px;
+	position: absolute;
+	color: lightgreen;
+	text-align: center;
+	transition: all 1s;
+	left: 0px;
+	right: 0px;
+}
+
+h1:hover{
+	transform: scale(1.2);
+}
